@@ -13,7 +13,8 @@ import sys
 
 def birthdayCakeCandles(candles):
     return candles.count(max(candles))
-    
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
